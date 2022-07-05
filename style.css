@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: #68EACC;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: white;
+}
+
+.style{
+    font-weight: 800;
+    color: #497BE8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: #68EACC;
+    text-align: -webkit-left;
+    border: 2px solid;
+    border: none;
+    width: 537px;
+    padding: 5px;
+    margin-bottom: 9px;
+    border-radius: 7px;
+    background: #497BE8;
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_div .input{
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+    height: 50px;
+    width: 470px;
+    outline: none;
+    background-color: #fff;
+    font-size: 1.15rem;
+    border: none;
+    border-radius: 25px;
+}
+
+.addButton{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #497BE8;
+    color: #fff;
+    outline: none;
+    margin: 0.25rem;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.addButton:hover{
+    opacity: 0.5;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.item{
+    padding: 00.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #fff;
+    font-family: ui-serif;
+}
+
+.item_input{
+    background: none;
+    color: #fff;
+    width: 350px;
+    border: none;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.editButton{
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background: none;
+    color: #497BE8;
+    outline: none;
+    cursor: pointer;
+}
+
+.removeButton{
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background: none;
+    color: #e00;
+    outline: none;
+    cursor: pointer;
+}
